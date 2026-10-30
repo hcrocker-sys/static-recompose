@@ -1,16 +1,22 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "date": "2026-10-30",
-  "summary": "New download page: hcrocker-sys.github.io/aws-static-recompose.",
-  "download": "https://github.com/hcrocker-sys/aws-static-recompose/releases/download/v1.0.1/AWS-Static-Recompose-plugin.zip",
+  "summary": "Now called Static Recompose, with a new download page address.",
+  "download": "https://github.com/hcrocker-sys/static-recompose/releases/download/v1.0.2/Static-Recompose-plugin.zip",
   "history": [
+    {
+      "version": "1.0.2",
+      "date": "2026-10-30",
+      "summary": "Now called Static Recompose, with a new download page address.",
+      "notes": [
+        "Update checks use the new download page."
+      ]
+    },
     {
       "version": "1.0.1",
       "date": "2026-10-30",
-      "summary": "New download page: hcrocker-sys.github.io/aws-static-recompose.",
-      "notes": [
-        "The plugin and its downloads moved to the work GitHub account. Update checks now use the new page; the old page forwards there."
-      ]
+      "summary": "Update checks use the current download page.",
+      "notes": []
     },
     {
       "version": "1.0.0",
