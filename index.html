@@ -52,6 +52,10 @@
   .rel b{font-size:15px} .rel .date{color:var(--muted);font-size:13px;margin-left:6px}
   .rel p{margin:4px 0 6px;font-size:14px} .rel ul{margin:0;padding-left:18px;font-size:14px;color:var(--muted)}
   .hidden{display:none}
+  .beta{display:flex;gap:12px;align-items:flex-start;background:var(--warn-bg);border:1px solid #6b5426;color:var(--warn);
+    border-radius:var(--radius);padding:14px 16px;margin-bottom:16px;font-size:14px}
+  .beta svg{flex:none;margin-top:2px}
+  .beta b{color:#ffe2a8}
   footer{color:var(--muted);font-size:13px;text-align:center;margin-top:28px}
   @media (max-width:560px){ .grid{grid-template-columns:1fr} .sub{padding-left:0} .path{white-space:normal} }
 </style>
@@ -68,6 +72,11 @@
     <h1>Static Recompose <span class="ver" id="ver">latest</span></h1>
   </header>
   <p class="sub">A Figma plugin: design one ad, get every other size, plus linked language versions.</p>
+
+  <div class="beta" role="note">
+    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M9 1.5 17 16H1L9 1.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="9" cy="13.2" r=".9" fill="currentColor"/></svg>
+    <div><b>Still in development.</b> This tool is being built and tested, and its output can be wrong: a cropped face, text that doesn't fit, a missing layer. <b>Check every generated size by eye</b> against the design before you use, export or hand anything off. The automated checks help, but they don't replace your review. Provided as is.</div>
+  </div>
 
   <section class="card" aria-labelledby="dl-h">
     <h2 id="dl-h">Download</h2>

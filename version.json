@@ -1,9 +1,18 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "date": "2026-10-30",
-  "summary": "Now called Static Recompose, with a new download page address.",
-  "download": "https://github.com/hcrocker-sys/static-recompose/releases/download/v1.0.2/Static-Recompose-plugin.zip",
+  "summary": "Adds an \"in development\" notice: check every size by eye before using it.",
+  "download": "https://github.com/hcrocker-sys/static-recompose/releases/download/v1.0.3/Static-Recompose-plugin.zip",
   "history": [
+    {
+      "version": "1.0.3",
+      "date": "2026-10-30",
+      "summary": "Adds an \"in development\" notice: check every size by eye before using it.",
+      "notes": [
+        "The panel, the download page and the install notes say the tool is still in development and its output must be checked by hand.",
+        "Export reminds you to check every image before handing it off."
+      ]
+    },
     {
       "version": "1.0.2",
       "date": "2026-10-30",
